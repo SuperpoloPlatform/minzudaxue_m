@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+  <textures>
+      <!--下面是天空的贴图，还有云的图片-->
+    <texture name="SKY02.JPG">
+      <file>/art/models/sky/textures/SKY02.JPG</file>
+    </texture>
+    <texture name="perlin0.png">
+		<file>/art/models/sky/textures/perlin0.png</file>
+	</texture>
+	<texture name="perlin1.png">
+		<file>/art/models/sky/textures/perlin1.png</file>
+	</texture>
+	<texture name="perlin2.png">
+		<file>/art/models/sky/textures/perlin2.png</file>
+	</texture>
+	<texture name="perlin3.png">
+		<file>/art/models/sky/textures/perlin3.png</file>
+	</texture>
+  </textures>
+  <materials>
+		  <!--下面是材质信息，为了在工厂当中引用-->
+	<material name="Material_jmdx_sky_sky">
+      <texture>SKY02.JPG</texture>
+    </material>
+    <material name="Material_jmdx_sky_sky">
+      <texture>SKY02.JPG</texture>
+   </material>
+	<material name="cloudsperlin0.png">
+		<texture>perlin0.png</texture>
+		<shader type="depthwrite">*null</shader>
+		<shader type="ambient">clouds2</shader>
+		<shader type="diffuse">*null</shader>
+		<shadervar type="texture" name="noise1">perlin1.png</shadervar>
+		<shadervar type="texture" name="noise2">perlin2.png</shadervar>
+		<shadervar type="texture" name="noise3">perlin3.png</shadervar>
+		<shadervar type="vector2" name="windvec">0.0,0.5</shadervar>
+		<shadervar type="float" name="timeOfDay">1</shadervar>
+		<shadervar type="vector3" name="cloudcol">1,1,1</shadervar>
+		<shadervar type="vector3" name="skycol">1,1,1</shadervar>
+		<shadervar type="vector2" name="windvec">0.0900000298,0.100000011921</shadervar>
+	</material>
+	<material name="clouds.001perlin0.png.001">
+		<texture>perlin0.png</texture>
+		<shader type="depthwrite">*null</shader>
+		<shader type="ambient">clouds2</shader>
+		<shader type="diffuse">*null</shader>
+		<shadervar type="texture" name="noise1">perlin1.png</shadervar>
+		<shadervar type="texture" name="noise2">perlin2.png</shadervar>
+		<shadervar type="texture" name="noise3">perlin3.png</shadervar>
+		<shadervar type="vector2" name="windvec">0.0,0.5</shadervar>
+		<shadervar type="float" name="timeOfDay">1</shadervar>
+		<shadervar type="vector3" name="cloudcol">1,1,1</shadervar>
+		<shadervar type="vector3" name="skycol">1,1,1</shadervar>
+		<shadervar type="vector2" name="windvec">0.09000000298,0.100000011921</shadervar>
+	</material>
+	<material name="fogperlin0.png.001">
+		<texture>perlin0.png</texture>
+		<shader type="depthwrite">*null</shader>
+		<shader type="ambient">clouds2</shader>
+		<shader type="diffuse">*null</shader>
+		<shadervar type="texture" name="noise1">perlin1.png</shadervar>
+		<shadervar type="texture" name="noise2">perlin2.png</shadervar>
+		<shadervar type="texture" name="noise3">perlin3.png</shadervar>
+		<shadervar type="vector2" name="mnvars">2.8,1.0</shadervar>
+		<shadervar type="float" name="timeOfDay">1</shadervar>
+	</material>
+	<material name="Material_M2_star">
+      <texture>star2.png</texture>
+	   <shader type="ambient">ambient</shader>
+    </material>
+    <material name="Material_M1_star">
+      <texture>star1.png</texture>
+	  	<shader type="ambient">ambient</shader>
+    </material>
+  </materials>
+ <!--下面的代码是用来加载天空与白云，由于shader提供的天空不够蓝，所以天空使用了贴图的，云使用它提供的-->
+  <library>/art/models/sky/factories/sky_mesh_sky_01_10.xml</library>
+  <library>/art/models/sky/factories/sky_mesh_sky_02_31.xml</library>
+  <library>/art/models/sky/factories/genclouds</library>
+  <library>/art/models/sky/factories/gencloudplane.001</library>
+  <library>/art/models/sky/factories/gencloudplane</library>
+</library>

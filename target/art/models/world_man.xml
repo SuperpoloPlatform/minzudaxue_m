@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<textures>
+		<texture name="m_maozi.jpg">
+			<file>/art/models/man/1be0d300.jpg</file>      
+		</texture>
+		<texture name="m_lian1.jpg">
+			<file>/art/models/man/1b558ea0.jpg</file>      
+		</texture>
+		<texture name="m_toufa1.png">
+			<file>/art/models/man/1b385120.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+		<texture name="m_gebo.jpg">
+			<file>/art/models/man/15bd6bc7.jpg</file>   
+		</texture>
+		<texture name="m_tui.jpg">
+			<file>/art/models/man/db8f38ac.jpg</file>   
+		</texture>
+		<texture name="m_yifu1.jpg">
+			<file>/art/models/man/yifu1.jpg</file>   
+		</texture>
+		<texture name="m_kuzi1.jpg">
+			<file>/art/models/man/kuzi1.jpg</file>   
+		</texture>
+		<texture name="m_xie1.jpg">
+			<file>/art/models/man/xie1.jpg</file>
+		</texture>
+		
+		<texture name="m_yifu2.jpg">
+			<file>/art/models/man/yifu2.jpg</file>   
+		</texture>
+		<texture name="m_kuzi2.jpg">
+			<file>/art/models/man/kuzi2.jpg</file>   
+		</texture>
+		<texture name="m_toufa2.png">
+			<file>/art/models/man/12db0730.png</file>      
+			<alpha>
+				<binary/>
+			</alpha>
+		</texture>
+	</textures>
+
+	<materials>
+		<material name="m_maozi">
+			<texture>m_maozi.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>	
+		<material name="m_lian1">
+			<texture>m_lian1.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>		
+		<material name="m_gebo">
+			<texture>m_gebo.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>		
+		<material name="m_tui">
+			<texture>m_tui.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>		
+		<material name="m_kuzi1">
+			<texture>m_kuzi1.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>		
+		<material name="m_yifu1">
+			<texture>m_yifu1.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="m_xie1">
+			<texture>m_xie1.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="m_toufa1">
+			<texture>m_toufa1.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		
+		<material name="m_toufa2">
+			<texture>m_toufa2.png</texture>
+			<shader type="ambient">ambient</shader>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="m_yifu2">
+			<texture>m_yifu2.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+		<material name="m_kuzi2">
+			<texture>m_kuzi2.jpg</texture>
+			<shadervar name="light 0 diffuse" type="vector4">0.6, 0.8, 1, 1</shadervar>
+		</material>
+	</materials>
+	<meshfact name="man">
+		<plugin>crystalspace.mesh.loader.factory.sprite.cal3d</plugin>
+		<params>
+			<options rotate_x_axis="yes" flip_textures="no" />
+			<animation file="/art/models/man/stand.caf" name="stand" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/man/run.caf" name="run" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/man/walk.caf" name="walk" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<animation file="/art/models/man/man.caf" name="man" type="travel"
+				base_vel="0" min_vel="1" max_vel="0" min_random="10" max_random="30" />
+			<scale value="1" />
+			<skeleton file="/art/models/man/man.csf" />
+
+			<mesh file="/art/models/man/maozi.cmf" name="maozi" material="m_maozi" />
+			<mesh file="/art/models/man/lian1.cmf" name="lian1" material="m_lian1" />
+			<mesh file="/art/models/man/gebo.cmf" name="gebo" material="m_gebo" />
+			<mesh file="/art/models/man/tui.cmf" name="tui" material="m_tui" />
+			<mesh file="/art/models/man/kuzi1.cmf" name="kuzi1" material="m_kuzi1" />
+			<mesh file="/art/models/man/toufa1.cmf" name="toufa1" material="m_toufa1" />
+			<mesh file="/art/models/man/yifu1.cmf" name="yifu1" material="m_yifu1" />
+			<mesh file="/art/models/man/xie1.cmf" name="xie1" material="m_xie1" />
+			
+			<mesh file="/art/models/man/kuzi2.cmf" name="kuzi2" material="m_kuzi2" />
+			<mesh file="/art/models/man/yifu2.cmf" name="yifu2" material="m_yifu2" />
+			<mesh file="/art/models/man/toufa2.cmf" name="toufa2" material="m_toufa2" />
+			
+
+			<!--<socket name="socketjian" tri="90" mesh="2" submesh="0" />-->
+
+			
+			<hardtransform
+				rot_axis_x="1"
+				rot_axis_y="0"
+				rot_axis_z="0"
+				rot_angle="90" />
+			<hardtransform
+				rot_axis_x="0"
+				rot_axis_y="1"
+				rot_axis_z="0"
+				rot_angle="180" />
+				
+		</params>
+	</meshfact>
+	
+</library>

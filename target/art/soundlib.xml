@@ -1,0 +1,6 @@
+<library>
+	<sounds>
+		<sound name="lgly.wav">
+			<file>/art/music/lgly.wav</file>
+		</sound>
+	</sounds></library>

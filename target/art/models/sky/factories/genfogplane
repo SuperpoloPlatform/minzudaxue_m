@@ -1,0 +1,19 @@
+<library>
+    <meshfact name="genfogplane">
+        <plugin>crystalspace.mesh.loader.factory.genmesh</plugin>
+        <zfill />
+        <params>
+            <renderbuffer name="position" checkelementcount="no" file="/art/models/sky/factories/bluesky/genfogplane_v" />
+            <renderbuffer name="normal" file="/art/models/sky/factories/bluesky/genfogplane_n" />
+            <renderbuffer name="texture coordinate 0" file="/art/models/sky/factories/bluesky/genfogplane_tc" />
+            <material>fogperlin0.png.001</material>
+            <mixmode>
+                <copy />
+            </mixmode>
+            <submesh name="0">
+                <material>fogperlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/bluesky/genfogplane_i0" />
+            </submesh>
+        </params>
+    </meshfact>
+</library>

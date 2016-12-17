@@ -1,0 +1,209 @@
+<library>
+    <meshfact name="gencloudplane.001">
+        <plugin>crystalspace.mesh.loader.factory.genmesh</plugin>
+        <ztest />
+        <params>
+            <renderbuffer name="position" checkelementcount="no" file="/art/models/sky/factories/gencloudplane_001_v" />
+            <renderbuffer name="normal" file="/art/models/sky/factories/gencloudplane_001_n" />
+            <renderbuffer name="texture coordinate 0" file="/art/models/sky/factories/gencloudplane_001_tc" />
+            <renderbuffer name="lit color" components="4" type="float">
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+                <e c0="0" c1="0" c2="0" c3="1" />
+            </renderbuffer>
+            <material>clouds.001perlin0.png.001</material>
+            <mixmode>
+                <copy />
+            </mixmode>
+            <submesh name="0">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i0" />
+            </submesh>
+            <submesh name="0_0">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i1" />
+            </submesh>
+            <submesh name="0_1">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i2" />
+            </submesh>
+            <submesh name="0_10">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i11" />
+            </submesh>
+            <submesh name="0_11">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i12" />
+            </submesh>
+            <submesh name="0_12">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i13" />
+            </submesh>
+            <submesh name="0_13">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i14" />
+            </submesh>
+            <submesh name="0_14">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i15" />
+            </submesh>
+            <submesh name="0_15">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i16" />
+            </submesh>
+            <submesh name="0_16">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i17" />
+            </submesh>
+            <submesh name="0_17">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i18" />
+            </submesh>
+            <submesh name="0_18">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i19" />
+            </submesh>
+            <submesh name="0_19">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i20" />
+            </submesh>
+            <submesh name="0_2">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i3" />
+            </submesh>
+            <submesh name="0_20">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i21" />
+            </submesh>
+            <submesh name="0_21">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i22" />
+            </submesh>
+            <submesh name="0_22">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i23" />
+            </submesh>
+            <submesh name="0_3">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i4" />
+            </submesh>
+            <submesh name="0_4">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i5" />
+            </submesh>
+            <submesh name="0_5">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i6" />
+            </submesh>
+            <submesh name="0_6">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i7" />
+            </submesh>
+            <submesh name="0_7">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i8" />
+            </submesh>
+            <submesh name="0_8">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i9" />
+            </submesh>
+            <submesh name="0_9">
+                <material>clouds.001perlin0.png.001</material>
+                <indexbuffer file="/art/models/sky/factories/gencloudplane_001_i10" />
+            </submesh>
+        </params>
+    </meshfact>
+</library>

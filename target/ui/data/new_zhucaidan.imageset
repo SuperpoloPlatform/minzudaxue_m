@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="new_zhucaidan" Imagefile="/ui/data/new_zhucaidan.png">
+	<Image Name="manyou_hover"  XPos="322" YPos="380" Width="67" Height="67"/>
+	<Image Name="manyou_normal" XPos="400" YPos="380" Width="67" Height="67"/>
+	<Image Name="shijiaokongzhi_normal"  XPos="80" YPos="2" Width="68" Height="68"/>
+	<Image Name="jieshao_hover"  XPos="3" YPos="77" Width="68" Height="68"/>
+	<Image Name="shijiaokongzhi_hover"  XPos="3" YPos="2" Width="68" Height="68"/>
+	<Image Name="shezhi_hover"  XPos="3" YPos="153" Width="68" Height="68"/>
+	<Image Name="xinxi_hover"  XPos="322" YPos="153" Width="68" Height="68"/>
+	<Image Name="zhaoxing_hover"  XPos="162" YPos="2" Width="68" Height="68"/>
+	<Image Name="shijiaoqiehuan_hover"  XPos="162" YPos="78" Width="68" Height="68"/>
+	<Image Name="shapan_hover"  XPos="322" YPos="229" Width="68" Height="68"/>
+	<Image Name="jieshao_normal"  XPos="80" YPos="76" Width="68" Height="68"/>
+	<Image Name="shezhi_normal"  XPos="80" YPos="153" Width="68" Height="68"/>
+	<Image Name="zhaoxing_normal"  XPos="244" YPos="2" Width="68" Height="68"/>
+	<Image Name="kuaisudinwei_hover"  XPos="322" YPos="304" Width="67" Height="67"/>
+	<Image Name="xinxi_normal"  XPos="399" YPos="153" Width="68" Height="68"/>
+	<Image Name="shapan_normal"  XPos="400" YPos="230" Width="68" Height="68"/>
+	<Image Name="kuaisudinwei_normal"  XPos="400" YPos="305" Width="68" Height="68"/>
+	<Image Name="shijiaoqiehuan_normal"  XPos="244" YPos="77" Width="68" Height="68"/>
+	<Image Name="canyin_hover"  XPos="3" YPos="228" Width="68" Height="68"/>
+	<Image Name="jianzhu_hover"  XPos="3" YPos="303" Width="68" Height="68"/>
+	<Image Name="jianzhu_normal"  XPos="81" YPos="303" Width="68" Height="68"/>
+	<Image Name="zhusu_hover"  XPos="161" YPos="379" Width="68" Height="68"/>
+	<Image Name="zhusu_normal"  XPos="243" YPos="379" Width="68" Height="68"/>
+	<Image Name="pao_hover"  XPos="397" YPos="79" Width="68" Height="68"/>
+	<Image Name="pao_normal"  XPos="321" YPos="78" Width="68" Height="68"/>
+	<Image Name="zou_hover"  XPos="396" YPos="3" Width="68" Height="68"/>
+	<Image Name="zou_normal"  XPos="320" YPos="2" Width="68" Height="68"/>
+	<Image Name="bangzhu_hover"  XPos="162" YPos="153" Width="68" Height="68"/>
+	<Image Name="bangzhu_normal"  XPos="244" YPos="153" Width="68" Height="68"/>
+	<Image Name="yinhang_normal"  XPos="243" YPos="303" Width="68" Height="68"/>
+	<Image Name="yinhang_hover"  XPos="161" YPos="303" Width="68" Height="68"/>
+	<Image Name="yiliao_hover"  XPos="161" YPos="228" Width="68" Height="68"/>
+	<Image Name="yiliao_normal"  XPos="243" YPos="228" Width="68" Height="68"/>
+	<Image Name="yule_hover"  XPos="3" YPos="379" Width="68" Height="68"/>
+	<Image Name="yule_normal"  XPos="81" YPos="379" Width="68" Height="68"/>
+	<Image Name="canyin_normal"  XPos="81" YPos="228" Width="68" Height="68"/>
+	<Image Name="bus_hover"  XPos="80" YPos="444" Width="68" Height="68"/>
+	<Image Name="bus_normal"  XPos="161" YPos="444" Width="68" Height="68"/>
+	
+	<Image Name="homepage_hover" XPos="3" YPos="539" Width="68" Height="68"/>
+	<Image Name="homepage_normal" XPos="109" YPos="539" Width="68" Height="68"/>
+	<Image Name="panorama_hover" XPos="212" YPos="539" Width="68" Height="68"/>
+	<Image Name="panorama_normal" XPos="319" YPos="539" Width="68" Height="68"/>
+	
+	<Image Name="cifford_hover" XPos="410" YPos="539" Width="68" Height="68"/>
+	<Image Name="cifford_normal" XPos="501" YPos="539" Width="68" Height="68"/>
+	<Image Name="france_hover" XPos="602" YPos="539" Width="68" Height="68"/>
+	<Image Name="france_normal" XPos="697" YPos="539" Width="68" Height="68"/>
+</Imageset>

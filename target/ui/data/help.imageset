@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="help" Imagefile="/ui/data/help.png">
+	<Image Name="fangxiang_bg" XPos="6" YPos="4" Width="140" Height="77"/>
+	<Image Name="help_jiantou" XPos="164" YPos="7" Width="42" Height="62"/>
+	<Image Name="help_xiaojiantou" XPos="228" YPos="17" Width="62" Height="42"/>
+	<Image Name="help_bg" XPos="394" YPos="7" Width="44" Height="25"/>
+	<Image Name="help_bg2" XPos="460" YPos="44" Width="44" Height="25"/>
+	<Image Name="help_btn_next" XPos="5" YPos="118" Width="160" Height="67"/>
+	<Image Name="help_btn_cancel" XPos="215" YPos="113" Width="194" Height="72"/>
+	<Image Name="help_btn_cancel2" XPos="725" YPos="4" Width="194" Height="72"/>
+	
+	<Image Name="next" XPos="12" YPos="200" Width="46" Height="75"/>
+	<Image Name="last" XPos="64" YPos="200" Width="46" Height="75"/>
+	<Image Name="magnify" XPos="12" YPos="90" Width="23" Height="23"/>
+	<Image Name="magnify_hover" XPos="45" YPos="90" Width="23" Height="23"/>
+	<Image Name="serch_bg" XPos="313" YPos="59" Width="45" Height="45"/>
+	<Image Name="serch_bg_hover" XPos="313" YPos="7" Width="45" Height="45"/>
+	<Image Name="danwei_hover" XPos="12" YPos="304" Width="67" Height="67"/>
+	<Image Name="yuanxi_normal" XPos="88" YPos="378" Width="67" Height="67"/>
+	<Image Name="yuanxi_hover" XPos="88" YPos="304" Width="67" Height="67"/>
+	<Image Name="dangqun_normal" XPos="164" YPos="378" Width="67" Height="67"/>
+	<Image Name="dangqun_hover" XPos="164" YPos="304" Width="67" Height="67"/>
+	<Image Name="qita_normal" XPos="235" YPos="378" Width="67" Height="67"/>
+	<Image Name="qita_hover" XPos="235" YPos="304" Width="67" Height="67"/>
+	<Image Name="danwei_normal" XPos="12" YPos="378" Width="67" Height="67"/>
+	<Image Name="serch_help_bg" XPos="394" YPos="59" Width="44" Height="37"/>
+	<Image Name="serch_btn_bg" XPos="460" YPos="6" Width="43" Height="27"/>
+	<Image Name="btn_down" XPos="12" YPos="453" Width="100" Height="40"/>
+	<Image Name="jianpan_anniu_shang" XPos="512" YPos="5" Width="81" Height="55"/>
+	<Image Name="jianpan_anniu_zuo" XPos="626" YPos="5" Width="81" Height="55"/>
+	<Image Name="jianpan_anniu_xia" XPos="518" YPos="95" Width="81" Height="55"/>
+	<Image Name="jianpan_anniu_you" XPos="626" YPos="95" Width="81" Height="55"/>
+	
+	
+	<Image Name="homepage_hover" XPos="206" YPos="206" Width="68" Height="68"/>
+	<Image Name="homepage_normal" XPos="312" YPos="206" Width="68" Height="68"/>
+	<Image Name="panorama_hover" XPos="415" YPos="206" Width="68" Height="68"/>
+	<Image Name="panorama_normal" XPos="522" YPos="206" Width="68" Height="68"/>
+	
+	<Image Name="cifford_hover" XPos="613" YPos="200" Width="68" Height="68"/>
+	<Image Name="cifford_normal" XPos="704" YPos="200" Width="68" Height="68"/>
+	<Image Name="france_hover" XPos="805" YPos="200" Width="68" Height="68"/>
+	<Image Name="france_normal" XPos="900" YPos="200" Width="68" Height="68"/>
+</Imageset>

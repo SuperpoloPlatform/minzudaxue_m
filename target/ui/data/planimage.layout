@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="General/StaticImage" Name="plan_bg" >
+            <Property Name="image" Value="set:planimage image:full_image" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00097561,0},{0,0},{0.999024,0},{1,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="General/StaticImage" Name="word_normal" >
+                <Property Name="horz_format" Value="Tiled" />
+                <Property Name="vert_format" Value="Tiled" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0643903,0},{0.831633,0},{0.89561,0},{0.894131,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="General/StaticImage" Name="word_hover" >
+                    <Property Name="horz_format" Value="Tiled" />
+                    <Property Name="vert_format" Value="Tiled" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="General/StaticText" Name="word" >
+                <Property Name="Font" Value="You14" />
+                <Property Name="text_theme" Value="0%" />
+                <Property Name="text_colour" Value="FFFF0000" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.919024,0},{0.919643,0},{0.986341,0},{0.96556,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

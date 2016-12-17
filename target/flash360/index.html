@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>111</title>
+
+<style type="text/css">
+	body{ background:#000;}
+	#flash_container{ width:800px; height:600px; margin:0px auto; }
+</style>
+
+<script type="text/javascript" src="flashfilepath.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.flash.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 读取URL中的数据,由于UGE中打开html是以文件名的方式打开的，所以这里不支持添加参数
+		//var url = window.location.href;
+		//var file = url.substr(url.indexOf("?")+1);
+		
+		change360(filepath["filename"]);
+		
+		function change360(filePath){
+			filePath = '360/'+filePath+'.swf';
+			$('#flash_container').flash({
+				src: filePath,
+				width: 800,
+				height: 600
+			});
+		}
+		
+		document.title = filepath["name"];
+		
+	});
+	
+</script>
+    
+</head>
+
+<body>
+    <div id="flash_container">
+        
+    </div>
+    
+    <script type="text/javascript">
+		
+		var Client = {
+			viewportWidth: function() {
+				return self.innerWidth || (document.documentElement.clientWidth || document.body.clientWidth);
+			},        
+			viewportHeight: function() {
+				return self.innerHeight || (document.documentElement.clientHeight || document.body.clientHeight);
+			}, 
+			viewportSize: function() {
+				return { width: this.viewportWidth(), height: this.viewportHeight() };
+			}
+		};
+		
+		function initIndex(){
+			var h = Client.viewportHeight();
+			
+			var ifr = document.getElementById("flash_container");
+			ifr.style.marginTop = (h-600)/2 +"px";
+		}
+		
+		window.onresize = function (){
+			initIndex();	
+		};
+		
+		initIndex();	
+    
+    </script>
+    
+</body>
+</html>

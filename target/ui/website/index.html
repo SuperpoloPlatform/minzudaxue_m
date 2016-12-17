@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>对外经济贸易大学视频集</title>
+		<script src="./js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src = "swfobject.js"></script>
+		<style>
+		    
+		    body{
+			   background: url(./img/background.jpg) no-repeat;
+			}
+			#header{
+			   height:143px;
+			   width:1500px;
+			   border:0px solid #C2C2C2;
+			}
+			#logo{
+			   width:557px;
+			   height:143px;
+			   float:left;
+			}
+			#title{
+			    height:143px;
+			    float:left;
+			}
+			#main{
+			   width:1000px;
+			   margin:auto;
+			   height:500px;
+			}
+			#navigator{
+			   width:200px;
+			   height:500px;
+			   border:1px solid #C2C2C2;
+			   float:left;
+			}
+			#showPlay{
+			   width:780px;
+			   height:500px;
+			   border:1px solid #C2C2C2;
+			   float:left;
+			}
+			#footer{
+				width:1000px;
+				margin:auto;
+				margin-left:400px;
+				float:left;
+			}
+			.kind{
+			   width:180px;
+			   height:20px;
+			  border:0px solid #000;
+			  margin:auto;
+			  margin-top:10px;
+			  cursor:pointer
+			}
+			.item{
+			   width:180px;
+			   height:80px;
+			   border:0px solid #000;
+			   margin:auto;
+			   margin-top:3px;
+			   display:none;
+			   cursor:pointer
+			  
+			}
+			.itemson{
+			   width:120px;
+			   height:20px;
+			   border:0px solid #000;
+			   margin-left:50px;
+			   margin-top:10px;
+			}
+		</style>
+	</head>
+
+	<script language="javascript">		
+		var shiping_int_name = 0;//区分播放器的id yuechaofeng理解
+		//选项卡展开和关闭相关设置
+		function closeTab(){
+			$(".item").css("display","none");
+			$(".kind img").attr("src","./img/icon1.png");
+			$(".kind").css("background-color","#CCCCCC");
+		}
+		function doAction(index){
+			if($("#item"+index).css("display")=='block'){
+				$("#type"+index+" img").attr("src","./img/icon1.png");
+				$("#item"+index).css("display","none");
+				$("#type"+index).css("background-color","#CCCCCC");
+			}
+			else {
+				closeTab();	
+				$("#type"+index+" img").attr("src","./img/icon2.png");
+				$("#item"+index).css("display","block");
+				$("#type"+index).css("background-color"," #999999");
+			}
+		}
+		//播放器设置
+		function add(id){
+			var swfEmbed= "";
+		    $(".text").css("color","#3333FF");//改变class：text下的所有文字的颜色
+			$("#"+id+" div").css("color","#FF0000");//根据id改变该id下的div标签内容的颜色
+			if(shiping_int_name==0){
+				swfEmbed=document.getElementById("player");
+			}else{
+				swfEmbed=document.getElementById("player_"+(shiping_int_name-1));
+			}
+			var shipin = './video/'+ id +'.wmv';
+			//判断浏览器是否为IE浏览器
+			if(window.ActiveXObject){
+				//播放之前先停止当前播放的视频文件
+				swfEmbed.stop();
+				if(shiping_int_name==0){
+					document.getElementById("player").style.display = "none";
+				}else{
+					document.getElementById("player_"+(shiping_int_name-1)).style.display = "none";
+				}
+				//重新创建了一个embed标签
+				var e=document.createElement("EMBED");
+				e.id="player_"+shiping_int_name;
+				e.src=shipin;
+				e.type="application/x-mplayer2"; 
+				e.height="500px";
+				e.width="780px";
+				swfEmbed.parentNode.appendChild(e);
+				swfEmbed.removeNode(true);
+				shiping_int_name +=1;
+			}else{
+				swfEmbed.src=shipin;
+				swfEmbed.parentNode.appendChild(swfEmbed);
+			}
+		}
+	</script>
+
+	
+	<body>
+		<div id='header'>
+		    <div id="logo">
+			  <img src="./img/logo.png" />
+			</div>
+			 <div id="title">
+			    <h1>
+					<b style=" float:left; position:relative; top:40px;left:0px; font-size: 36px; font-family:'宋体'">对外经济贸易大学视频锦集</b>				
+				</h1>
+			</div>
+		</div>
+		
+		<div id="main">
+			<!-- 选项卡 -->
+		    <div id="navigator">
+			    <div id="type1" class="kind" onclick="doAction(1)" style="background-color:#999999;">
+				    <img src="./img/icon2.png" style="float:left;margin-left:25px;"/>  <div style="float:left;margin-left:15px;">迎新晚会</div>
+				</div>
+				<div id="item1" class="item" style="display:block;">
+						<div id="Wildlife" onClick="add(id)" class="itemson">
+							<img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" id="item1_Wildlife" class="text">迎新晚会1</div>
+						</div>
+						<div id="hao" onClick="add(id)" class="itemson">
+						    <img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" id="item1_hao" class="text">迎新晚会2</div>
+						</div>
+				</div>
+				<div id="type2" class="kind" onclick="doAction(2)" style="background-color:#CCCCCC;">
+				    <img src="./img/icon1.png" style="float:left;margin-left:25px;"/>  <div style="float:left;margin-left:15px;">校庆</div>
+				</div>
+				<div id="item2" class="item">
+				    <div id="Wildlife" onClick="add(id)" class="itemson">
+							<img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" class="text">校庆1</div>
+					</div>
+					<div id="hao" onClick="add(id)" class="itemson">
+						    <img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" class="text">校庆2</div>
+					</div>
+				</div>
+				<div id="type3" class="kind" onclick="doAction(3)" style="background-color:#CCCCCC;">
+				    <img src="./img/icon1.png" style="float:left;margin-left:25px;"/>  <div style="float:left;margin-left:15px;">校园风景</div>
+				</div>
+				<div id="item3" class="item">
+				    <div id="Wildlife" onClick="add(id)" class="itemson">
+							<img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" class="text">校园风景1</div>
+						</div>
+				    <div id="hao" onClick="add(id)" class="itemson">
+						    <img src="./img/icon3.png" style="float:left;"/> 
+							<div style="float:left;margin-left:10px; color:#3333FF" class="text">校园风景2</div>
+					</div>
+				</div>
+			</div>
+			<!-- 播放器 -->
+			<div id="showPlay">
+				<div id="shiping_0">
+					<embed id ="player" 
+						type="application/x-mplayer2" autostart=true hidden=no height="500px" width="780px" controls=console showtracker=true showaudiocontrols=true;>
+					</embed>
+				</div>
+			</div>
+		</div>
+		<!-- 页面底端 -->
+		<div id='footer'>
+			<div id='footer1'>
+				<center>
+					<font size='2' color="#999999">3D校园是北京理工篮园可以发展有限责任公司以自主版权的方式开发的虚拟现实软件。</font>
+				</center>
+			</div>
+			<div id='footer2'>
+				<center>
+					<font size='2' color="#999999">感谢您使用我们的产品，如在使用过程中有问题或者更好的建议，请联系北京理工篮园科技有限责任公司虚拟现实部</font>
+				</center>
+			</div>
+			<div id="footer3">
+				<center>
+					<font size="2" color="#999999">售后服务邮箱：&nbsptech@bitlanyuan.com&nbsp联系电话：18910767030</font>
+				</center>
+			</div>
+			<div id="footer4">
+				<center>
+					<font size="2" color="#999999">地址：北京市海淀区知春路中航科技大厦8层&nbsp 邮编：100098</font>
+				</center>
+			</div>
+		</div>
+	</body>
+</html>

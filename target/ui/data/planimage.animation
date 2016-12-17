@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Animation.xsd">
+	<AnimationDefinition duration="10.0" name="wheel" replayMode="loop">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0,0},{0,0},{0,0},{1,0}}" progression="linear"/>
+			<KeyFrame position="10.0" value="{{0,0},{0,0},{1,0},{1,0}}" progression="linear"/>
+		</Affector>
+	</AnimationDefinition>
+	<!--<AnimationDefinition duration="40.0" name="chang_image_one" replayMode="loop">
+		<Affector property="image" interpolator="String">
+			<KeyFrame position="0.0" value="set:word image:one_normal" progression="discrete"/>
+			<KeyFrame position="10.0" value="set:word image:two_normal" progression="discrete"/>
+			<KeyFrame position="20.0" value="set:word image:three_normal" progression="discrete"/>
+			<KeyFrame position="30.0" value="set:word image:four_normal" progression="discrete"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration="40.0" name="chang_image_two" replayMode="loop">
+		<Affector property="image" interpolator="String">
+			<KeyFrame position="0.0" value="set:word image:one_hover" progression="discrete"/>
+			<KeyFrame position="10.0" value="set:word image:two_hover" progression="discrete"/>
+			<KeyFrame position="20.0" value="set:word image:three_hover" progression="discrete"/>
+			<KeyFrame position="30.0" value="set:word image:four_hover" progression="discrete"/>
+		</Affector>
+	</AnimationDefinition>-->
+	<AnimationDefinition duration="80.0" name="chang_word" replayMode="once">
+		<Affector property="text_theme" interpolator="String">
+			<KeyFrame position="0.0" value="0%" progression="discrete"/>
+			<KeyFrame position="2.0" value="3%" progression="discrete"/>
+			<KeyFrame position="4.0" value="5%" progression="discrete"/>
+			<KeyFrame position="6.0" value="7%" progression="discrete"/>
+			<KeyFrame position="8.0" value="9%" progression="discrete"/>
+			<KeyFrame position="10.0" value="10%" progression="discrete"/>
+			<KeyFrame position="12.0" value="13%" progression="discrete"/>
+			<KeyFrame position="14.0" value="15%" progression="discrete"/>
+			<KeyFrame position="16.0" value="17%" progression="discrete"/>
+			<KeyFrame position="18.0" value="19%" progression="discrete"/>
+			<KeyFrame position="20.0" value="21%" progression="discrete"/>
+			<KeyFrame position="22.0" value="23%" progression="discrete"/>
+			<KeyFrame position="24.0" value="25%" progression="discrete"/>
+			<KeyFrame position="26.0" value="27%" progression="discrete"/>
+			<KeyFrame position="28.0" value="29%" progression="discrete"/>
+			<KeyFrame position="30.0" value="30%" progression="discrete"/>
+			<KeyFrame position="32.0" value="33%" progression="discrete"/>
+			<KeyFrame position="34.0" value="35%" progression="discrete"/>
+			<KeyFrame position="36.0" value="37%" progression="discrete"/>
+			<KeyFrame position="38.0" value="39%" progression="discrete"/>
+			<KeyFrame position="40.0" value="40%" progression="discrete"/>
+			<KeyFrame position="42.0" value="43%" progression="discrete"/>
+			<KeyFrame position="44.0" value="45%" progression="discrete"/>
+			<KeyFrame position="46.0" value="47%" progression="discrete"/>
+			<KeyFrame position="48.0" value="49%" progression="discrete"/>
+			<KeyFrame position="50.0" value="50%" progression="discrete"/>
+			<KeyFrame position="52.0" value="53%" progression="discrete"/>
+			<KeyFrame position="54.0" value="55%" progression="discrete"/>
+			<KeyFrame position="56.0" value="57%" progression="discrete"/>
+			<KeyFrame position="58.0" value="61%" progression="discrete"/>
+			<KeyFrame position="60.0" value="65%" progression="discrete"/>
+			<KeyFrame position="62.0" value="69%" progression="discrete"/>
+			<KeyFrame position="64.0" value="73%" progression="discrete"/>
+			<KeyFrame position="66.0" value="78%" progression="discrete"/>
+			<KeyFrame position="68.0" value="81%" progression="discrete"/>
+			<KeyFrame position="70.0" value="84%" progression="discrete"/>
+			<KeyFrame position="72.0" value="87%" progression="discrete"/>
+			<KeyFrame position="74.0" value="93%" progression="discrete"/>
+			<KeyFrame position="76.0" value="95%" progression="discrete"/>
+			<KeyFrame position="78.0" value="98%" progression="discrete"/>
+			<KeyFrame position="80.0" value="100%" progression="discrete"/>
+		</Affector>
+	</AnimationDefinition>
+</Animations>

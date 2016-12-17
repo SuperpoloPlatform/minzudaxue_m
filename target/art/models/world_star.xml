@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+  <textures>
+    <texture name="star2.png">
+      <file>/art/models/star/textures/star2.png</file>
+	   <alpha><binary/></alpha>
+    </texture>
+    <texture name="star1.png">
+      <file>/art/models/star/textures/star1.png</file>
+	   <alpha><binary/></alpha>
+    </texture>
+  </textures>
+    <materials>
+    <material name="Material_M2_star">
+      <texture>star2.png</texture>
+	   <shader type="ambient">ambient</shader>
+    </material>
+    <material name="Material_M1_star">
+      <texture>star1.png</texture>
+	  	<shader type="ambient">ambient</shader>
+    </material>   
+  </materials> 
+  	<library>/art/models/star/factories/star_mesh_Plane01_10.xml</library>
+	<library>/art/models/star/factories/star_mesh_Plane02_31.xml</library>
+</library>

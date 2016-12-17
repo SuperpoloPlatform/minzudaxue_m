@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animations xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xsi:noNamespaceSchemaLocation="Animation.xsd">
+	<AnimationDefinition duration ="2" name ="school_sand/window/show" replayMode ="once">
+		<Affector property="Visible" interpolator="bool">
+			<KeyFrame position="0.0" value="True" progression="discrete"/>
+		</Affector>
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.555222,0},{0.230468,0},{0.555222,0},{0.230468,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="2.0" value="{{0.555222,0},{0.230468,0},{0.97837,0},{0.573132,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0" value="0.0" progression="quadratic decelerating"/>
+			<KeyFrame position="2" value="1.0" progression="quadratic decelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration ="2" name ="school_sand/window/display" replayMode ="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.555222,0},{0.230468,0},{0.97837,0},{0.573132,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="2.0" value="{{0.555222,0},{0.230468,0},{0.555222,0},{0.230468,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="1.0" progression="quadratic decelerating"/>
+			<KeyFrame position="2" value="0.0" progression="quadratic decelerating"/>
+		</Affector>
+		<Affector property="Visible" interpolator="bool">
+			<KeyFrame position="0.0" value="True" progression="discrete"/>
+			<KeyFrame position="2.0" value="False" progression="discrete"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	
+	<AnimationDefinition duration ="1" name ="mini_map/display/map" replayMode ="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.722657,0},{0.00127548,0},{1,0},{0.283163,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="1.0" value="{{0.920706,0},{-0.219388,0},{1.198049,0},{0.062500,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+	</AnimationDefinition>
+	<AnimationDefinition duration ="1" name ="mini_map/display/menu" replayMode ="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.840974,0},{0.241071,0},{0.999024,0},{0.758929,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="1.0" value="{{0.842926,0},{0.0242344,0},{1.00098,0},{0.542092,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+	</AnimationDefinition>
+	<AnimationDefinition duration ="1" name ="mini_map/show/map" replayMode ="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.920706,0},{-0.219388,0},{1.198049,0},{0.062500,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="1.0" value="{{0.722657,0},{0.00127548,0},{1,0},{0.283163,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+	</AnimationDefinition>
+	<AnimationDefinition duration ="1" name ="mini_map/show/menu" replayMode ="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.842926,0},{0.0242344,0},{1.00098,0},{0.542092,0}}" progression="quadratic decelerating"/>
+			<KeyFrame position="1.0" value="{{0.840974,0},{0.241071,0},{0.999024,0},{0.758929,0}}" progression="quadratic decelerating"/>
+		</Affector> 
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.6" name ="set_menu_alpha_one" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="0.6" value="0.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.6" name ="set_menu_alpha_two" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="0.6" value="1.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "7.0" name ="set_help_alpha_one" replayMode="loop">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.3" progression="quadratic accelerating"/>
+			<KeyFrame position="2.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="3.0" value="0.3" progression="quadratic accelerating"/>
+			<KeyFrame position="4.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="6.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="7.0" value="0.3" progression="quadratic accelerating"/>
+			
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "6.0" name ="set_help_alpha_two" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="2.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="2.1" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="5.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="6.0" value="0.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "2.5" name ="set_help_alpha_three" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="1.0" value="0.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "3.0" name ="set_help_alpha_four" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="2.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="3.0" value="1.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/introschool" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.104491,0},{0.185826,0},{0.2498036,0},{0.321195,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.104491,0},{0.185826,0},{0.3951162,0},{0.4565639,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.104491,0},{0.185826,0},{0.54042879,0},{0.591933,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.104491,0},{0.185826,0},{0.6857414,0},{0.7273019,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.104491,0},{0.185826,0},{0.831054,0},{0.862671,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.5" name ="school_info2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.104491,0},{0.185826,0},{0.831054,0},{0.862671,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.104491,0},{0.185826,0},{0.6857414,0},{0.7273019,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.104491,0},{0.185826,0},{0.54042879,0},{0.591933,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.104491,0},{0.185826,0},{0.3951162,0},{0.4565639,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.104491,0},{0.185826,0},{0.2498036,0},{0.321195,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.5" name ="school_info" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.104491,0},{0.185826,0},{0.2498036,0},{0.321195,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.104491,0},{0.185826,0},{0.3951162,0},{0.4565639,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.104491,0},{0.185826,0},{0.54042879,0},{0.591933,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.104491,0},{0.185826,0},{0.6857414,0},{0.7273019,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.104491,0},{0.185826,0},{0.831054,0},{0.862671,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.5" name ="serch/content_info2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.0273437,0},{0.0282318,0},{0.297852,0},{0.585438,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.0273437,0},{0.0282318,0},{0.2253,0},{0.4420,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.0273437,0},{0.0282318,0},{0.1593,0},{0.3040,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.0273437,0},{0.0282318,0},{0.0933,0},{0.1660,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.0273437,0},{0.0282318,0},{0.0273447,0},{0.0285438,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.5" name ="serch/content_info" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.0273437,0},{0.0282318,0},{0.0273447,0},{0.0285438,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.0273437,0},{0.0282318,0},{0.0933,0},{0.1660,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.0273437,0},{0.0282318,0},{0.1593,0},{0.3040,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.0273437,0},{0.0282318,0},{0.2253,0},{0.4420,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.0273437,0},{0.0282318,0},{0.297852,0},{0.585438,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.6" name ="sub_alpha" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="1.0" progression="quadratic accelerating"/>
+			<KeyFrame position="0.6" value="0.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.6" name ="visible/display" replayMode="once">
+		<Affector property="Visible" interpolator="bool">
+			<KeyFrame position="0.0" value="True" progression="discrete"/>
+			<KeyFrame position="0.6" value="False" progression="discrete"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.6" name ="add_alpha" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="0.6" value="1.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.6" name ="add_alpha_help" replayMode="once">
+		<Affector property="Alpha" interpolator="float">
+			<KeyFrame position="0.0" value="0.0" progression="quadratic accelerating"/>
+			<KeyFrame position="0.6" value="1.0" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	<AnimationDefinition duration = "2" name ="add_alphas" replayMode="once">
+	</AnimationDefinition>
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/introschool2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.104491,0},{0.185826,0},{0.831054,0},{0.862671,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.104491,0},{0.185826,0},{0.6857414,0},{0.7273019,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.104491,0},{0.185826,0},{0.54042879,0},{0.591933,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.104491,0},{0.185826,0},{0.3951162,0},{0.4565639,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.104491,0},{0.185826,0},{0.2498036,0},{0.321195,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/kuaisudingwei" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.146484,0},{0.0695964,0},{0.29941379,0},{0.22234392,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.146484,0},{0.0695964,0},{0.45234359,0},{0.37509144,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.146484,0},{0.0695964,0},{0.6052734,0},{0.52783896,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.146484,0},{0.0695964,0},{0.75820319,0},{0.68058648,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.146484,0},{0.0695964,0},{0.911133,0},{0.833334,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/kuaisudingwei2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.146484,0},{0.0695964,0},{0.911133,0},{0.833334,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.146484,0},{0.0695964,0},{0.75820319,0},{0.68058648,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.146484,0},{0.0695964,0},{0.6052734,0},{0.52783896,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.146484,0},{0.0695964,0},{0.45234359,0},{0.37509144,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.146484,0},{0.0695964,0},{0.29941379,0},{0.22234392,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/shijiaokongzhi" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.353516,0},{0.805974,0},{ 0.4101568,0},{0.8423738,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.353516,0},{0.805974,0},{0.4667976,0},{0.87877359,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.353516,0},{0.805974,0},{0.5234384,0},{0.9151734,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.353516,0},{0.805974,0},{0.58007919,0},{0.9515732,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.353516,0},{0.805974,0},{0.63672,0},{0.987973,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/shijiaokongzhi2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.353516,0},{0.805974,0},{0.63672,0},{0.987973,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.353516,0},{0.805974,0},{0.58007919,0},{0.9515732,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.353516,0},{0.805974,0},{0.5234384,0},{0.9151734,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.353516,0},{0.805974,0},{0.4667976,0},{0.87877359,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.353516,0},{0.805974,0},{0.4101568,0},{0.8423738,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/manyou" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.310313,0},{0.331746,0},{0.3859458,0},{0.4011354,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.310313,0},{0.331746,0},{0.4615786,0},{0.47052479,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.310313,0},{0.331746,0},{0.5372114,0},{0.5399142,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.310313,0},{0.331746,0},{0.6128442,0},{0.6093036,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.310313,0},{0.331746,0},{0.688477,0},{0.678693,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/manyou2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.310313,0},{0.331746,0},{0.688477,0},{0.678693,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.310313,0},{0.331746,0},{0.6128442,0},{0.6093036,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.310313,0},{0.331746,0},{0.5234384,0},{0.5399142,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.310313,0},{0.331746,0},{0.4615786,0},{0.47052479,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.310313,0},{0.331746,0},{0.3859458,0},{0.4011354,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/help" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.307617,0},{0.0548695,0},{0.3896484,0},{0.2129188,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.307617,0},{0.0548695,0},{0.4716798,0},{0.3709681,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.307617,0},{0.0548695,0},{0.5537112,0},{0.5290174,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.307617,0},{0.0548695,0},{0.63574259,0},{0.6870667,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.307617,0},{0.0548695,0},{0.7177739,0},{0.8451160,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/help2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.307617,0},{0.0548695,0},{0.7177739,0},{0.8451160,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.307617,0},{0.0548695,0},{0.63574259,0},{0.6870667,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.307617,0},{0.0548695,0},{0.5537112,0},{0.5290174,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.307617,0},{0.0548695,0},{0.4716798,0},{0.3709681,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.307617,0},{0.0548695,0},{0.3896484,0},{0.2129188,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="zhucaidan/multilingual" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.322032,0},{0.103468,0},{0.40039919,0},{0.2476734,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.322032,0},{0.103468,0},{0.4787664,0},{0.39187879,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.322032,0},{0.103468,0},{0.5571336,0},{0.53608419,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.322032,0},{0.103468,0},{0.6355008,0},{0.68028959,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.322032,0},{0.103468,0},{0.713868,0},{0.8244949,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="zhucaidan/multilingual2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.322032,0},{0.103468,0},{0.713868,0},{0.8244949,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.322032,0},{0.103468,0},{0.6355008,0},{0.68028959,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.322032,0},{0.103468,0},{0.5571336,0},{0.53608419,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.322032,0},{0.103468,0},{0.4787664,0},{0.39187879,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.322032,0},{0.103468,0},{0.40039919,0},{0.2476734,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="zhucaidan/tishikuang_Window" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.252696,0},{0.124828,0},{0.354696,0},{0.2539014,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{0.252696,0},{0.124828,0},{0.456696,0},{0.3829748,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.252696,0},{0.124828,0},{0.558696,0},{0.5120482,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.252696,0},{0.124828,0},{0.660696,0},{0.6411216,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.252696,0},{0.124828,0},{0.762696,0},{0.770195,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	
+	<AnimationDefinition duration = "0.5" name ="zhucaidan/tishikuang_Window2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.252696,0},{0.124828,0},{0.762696,0},{0.770195,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.252696,0},{0.124828,0},{0.660696,0},{0.6411216,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.252696,0},{0.124828,0},{0.558696,0},{0.5120482,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{0.252696,0},{0.124828,0},{0.456696,0},{0.3829748,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.252696,0},{0.124828,0},{0.354696,0},{0.2539014,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="zhucaidan/building" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.147461,0},{0.156489,0},{0.2927736,0},{0.291858,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.147461,0},{0.156489,0},{0.4380862,0},{0.427227,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.147461,0},{0.156489,0},{0.5833988,0},{0.562596,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.147461,0},{0.156489,0},{0.7287114,0},{0.697965,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.147461,0},{0.156489,0},{0.874024,0},{0.833334,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="zhucaidan/building2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.147461,0},{0.156489,0},{0.874024,0},{0.833334,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.125" value="{{0.147461,0},{0.156489,0},{0.7287114,0},{0.697965,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.25" value="{{0.147461,0},{0.156489,0},{0.5833988,0},{0.562596,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.375" value="{{0.147461,0},{0.156489,0},{0.4380862,0},{0.427227,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.147461,0},{0.156489,0},{0.2927736,0},{0.291858,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="shapan_bg/introschool" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.00292637,0},{-0.011472,0},{0.999997,0},{0.046402,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.00292637,0},{-0.011472,0},{0.999997,0},{0.196402,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+	
+	<AnimationDefinition duration="0.5" name="shapan_bg/introschool2" replayMode="once">
+		<Affector property="UnifiedAreaRect" interpolator="URect">
+			<KeyFrame position="0.0" value="{{0.00292637,0},{-0.15799768,0},{0.999997,0},{0.196402,0}}" progression="quadratic accelerating"/>
+			<KeyFrame position="0.5" value="{{0.00292637,0},{-0.15799768,0},{0.999997,0},{0.046402,0}}" progression="quadratic accelerating"/>
+		</Affector>
+	</AnimationDefinition>
+</Animations>

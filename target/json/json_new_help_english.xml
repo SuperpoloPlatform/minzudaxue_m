@@ -1,0 +1,43 @@
+<JSON_NEW_HELP_ENGLISH>
+	<help_txt>
+		<choose_title>//nWelcome to Lama Temple 3D scene!
+//nThe need novice help
+		</choose_title>
+		<help1_info>//nManually when roaming, the mouse click the Lama Temple to
+//nA surface location will automatically walk to that location.
+		</help1_info>
+		<over_info>//nVery good!Now you are free to control angle
+//nColor to the Lama Temple 3D scene.
+		</over_info>
+		<start_propmt_text>//nHello!Welcome to Lama Temple. We let
+//nFind out more about the functionality of 3D Lama Temple!
+		</start_propmt_text>
+		<introduce_text>//nTemple introduction
+//nClick on the Temple Description "button, I can understand an overview of the Lama Temple, the Lama Temple
+//nAnd cultural content, so that a comprehensive understanding of the Lama Temple, and they know
+//nKnowledge are related to the actual location within the Lama Temple.
+		</introduce_text>
+		<take_photos>//nPhotograph
+//nJust click the camera button and the beauty you see the Lama Temple, it can be stored in
+//nOn their own machines, has been reserved to enjoy.
+		</take_photos>
+		<system_settings>//nSettings (language switch, music)
+//nSystem for foreign tourists set, you can use in the English language
+//nThe switch can set the music switches.
+		</system_settings>
+		<ask_help>//nClick the help button at the bottom of the screen, will you open the full instruction manual, you
+//nA comprehensive understanding of all functions and operations of the "3D Lama Temple".
+		</ask_help>
+		<sand_table>//nElectronic sand table
+//nClick on the bottom of the screen "electronic sand table" button, the scene changes to
+//nElectronic sand table scene. Functional classification of life, can be intuitive and fast
+//nMcNair display Temple facilities, and provide a key to quickly reach the function.
+		</sand_table>
+		<wander_route>//nRoaming routes
+//nClick on the "roaming line button interface on the right, select the appropriate
+//nRoaming path. "Roaming" in the air overlooking the way
+//nCan head way in the ground, the Lama Temple, the internal building structure
+//nAnd Yonghegong views panoramic view.
+		</wander_route>
+	</help_txt>
+</JSON_NEW_HELP_ENGLISH>

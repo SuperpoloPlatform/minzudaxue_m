@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="xinshourenwu" Imagefile="/ui/data/xinshourenwu.png" >
+	<Image Name="renwu2_bg"  XPos="23"  YPos="89"  Width="404"  Height="74"/>
+	<Image Name="renwu_duigou"  XPos="442"  YPos="24"  Width="46"  Height="42"/>
+	<Image Name="renwu1_bg" XPos="23"  YPos="8" Width="404"  Height="74"/>
+	<Image Name="renwu_wancheng" XPos="442"  YPos="99"  Width="47"  Height="46"/>
+	<Image Name="jianpan_anniu_shang" XPos="17"  YPos="174"  Width="81"  Height="55"/>
+	<Image Name="jianpan_anniu_xia" XPos="23"  YPos="264"  Width="81"  Height="55"/>
+	<Image Name="jianpan_anniu_zuo" XPos="131"  YPos="174"  Width="81"  Height="55"/>
+	<Image Name="jianpan_anniu_you" XPos="131"  YPos="264"  Width="81"  Height="55"/>
+	<Image Name="kyaisudingwei_biaoji" XPos="239"  YPos="174"  Width="70"  Height="28"/>
+</Imageset>

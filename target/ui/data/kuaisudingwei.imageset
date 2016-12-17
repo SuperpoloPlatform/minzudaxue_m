@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Imageset xmlns:mx="http://www.adobe.com/2006/mxml" Name="kuaisudingwei" Imagefile="/ui/data/kuaisudingwei.png">
+	<!-- Width  := image_width + 2px  -->
+	<!-- Height := image_height + 2px  -->
+	<Image Name="kuaisudingwei_btn"  XPos="0" YPos="0" Width="75" Height="17"/>
+</Imageset>
